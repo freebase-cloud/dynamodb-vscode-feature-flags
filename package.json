@@ -1,0 +1,18 @@
+{
+  "name": "dynamodb-vscode-feature-flags",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Audit feature rollouts for fully enabled flags, limited experiments, and invalid percentages.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/app.mjs",
+    "test": "node --test",
+    "demo": "node --env-file=.env src/demo.mjs",
+    "report:live": "node --env-file=.env src/app.mjs --live",
+    "preview": "node src/demo.mjs"
+  }
+}

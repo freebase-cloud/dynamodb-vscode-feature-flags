@@ -1,0 +1,7 @@
+{
+  "name": "dynamodb-vscode-feature-flags",
+  "engine": "dynamodb",
+  "slug": "dynamodb",
+  "kind": "application",
+  "useCase": "feature-flags"
+}
